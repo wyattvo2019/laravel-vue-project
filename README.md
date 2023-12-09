@@ -1,3 +1,35 @@
+# laravel-vue-project
+My custom note
+For start new project
+```
+composer create-project laravel/laravel laravel-vue-project
+cd laravel-vue-project
+npm install
+npm install vue@next
+npm install @vitejs/plugin-vue
+```
+Import plugin-vue after install
+```
+#vite.config.js
+....
+import vue from "@vitejs/plugin-vue"
+export default defineConfig({
+    plugins: [
+        ...
+        vue(),
+    ],
+
+```
+Run 2 command in 2 cmd
+```
+php artisan serve
+npm run dev
+```
+
+
+
+
+# Laravel default
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -65,13 +97,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-For start new project
-```
-composer create-project laravel/laravel laravel-vue-project
-cd laravel-vue-project
-npm install
-npm install vue@next
-npm install @vitejs/plugin-vue
-```
 
-# laravel-vue-project
