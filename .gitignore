@@ -37,3 +37,14 @@ storage/app/.gitignore
 storage/app/public/.gitignore
 storage/framework/cache/.gitignore
 storage/app/public/.gitignore
+bootstrap/cache/.gitignore
+bootstrap/cache/.gitignore
+bootstrap/cache/.gitignore
+storage/app/.gitignore
+storage/app/public/.gitignore
+storage/framework/cache/.gitignore
+storage/framework/cache/data/.gitignore
+storage/framework/sessions/.gitignore
+storage/framework/testing/.gitignore
+storage/framework/views/.gitignore
+.gitignore
